@@ -1,0 +1,1 @@
+cmd_/home/anjat/vezbe5/Stack/Stack.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/anjat/vezbe5/Stack/Stack.ko /home/anjat/vezbe5/Stack/Stack.o /home/anjat/vezbe5/Stack/Stack.mod.o ;  true

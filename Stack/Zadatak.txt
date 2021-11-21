@@ -1,0 +1,6 @@
+Zadatak: 
+
+Napraviti modul /dev/stek koji emulira stek memoriju sa 16 8-bitnih pozicija. 
+Kada se uradi echo "x" > /dev/stek ta operacija izvrsava funkciju PUSH. 
+Kada se uradi cat /dev/stek ta operacija izvrsava funkciju POP. 
+Ako je stek prazan ili pun, te se ne moze citati ili upisati u njega izbacuje se kernelska poruka.
